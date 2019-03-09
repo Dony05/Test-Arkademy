@@ -1,0 +1,3 @@
+SELECT categories.id,categories.name as category_name,GROUP_CONCAT(products.name) products 
+from categories LEFT outer join products on( categories.id=products.category_id ) 
+group by products.category_id order by id ASC

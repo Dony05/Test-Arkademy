@@ -1,0 +1,52 @@
+body{
+background:#000 url(bg01.jpg);
+background-repeat:x,y;
+}
+.container{
+max-width: 1080px;
+margin: 20px auto;
+background:#B291DE;
+overflow: hidden;
+border-radius:10px;
+padding: 10px;
+
+}
+.zebra-table {
+	
+	  width: 650px;
+      border-collapse: collapse;
+      box-shadow: 0 2px 3px 1px #ddd;
+      overflow: hidden;
+      border:10px solid #fff;
+		margin-bottom:5px;
+      }
+      .zebra-table th,.zebra-table td{
+      vertical-align: top;
+      padding:10px 7px;
+      text-align: center;
+	  color: black;
+      margin:0;
+ }
+      .zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+      background:#eee;
+      }
+
+      .highlighted-row {
+        width: 100%;
+        border-collapse: collapse;
+        box-shadow: 0 2px 3px 1px #ddd;
+        overflow: hidden;
+        border:10px solid #fff;
+        }
+        .highlighted-row th,.highlighted-row td{
+        vertical-align: top;
+        padding:10px 7px;
+        text-align: left;
+        margin:0;
+        }
+        /* Make row highlighted */
+        .highlighted-row tbody tr:nth-child(2) {
+        background:#cc3333; /* red */
+        color:#fff;
+        }
+		
